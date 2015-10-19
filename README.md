@@ -89,7 +89,7 @@ gulp.task('imagemin', function () {
 ```
 
 #### 6. watch: watch the paths and change on run-time.
-'''javascript
+```javascript
 gulp.task('watch', function () {
   // do it, if below has changed.
   gulp.watch('js/*.js', ['uglify']);
